@@ -15,7 +15,7 @@ import PropTypes from 'prop-types';
 export default class Main_text extends Component{
   handleClick() {
     console.log('Click happened');
-    Alert.alert("안녕 정윤아~~");
+    Alert.alert("안녕 정윤아~~!");
   }
 
   render(){
