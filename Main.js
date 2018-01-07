@@ -12,6 +12,7 @@ import {
 import Main_text from "./Main_text";
 
 export default class Main extends Component<{}> {
+
   render() {
     return (
       <View style={styles.container}>
