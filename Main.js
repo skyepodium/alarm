@@ -7,6 +7,7 @@ import {
   View,
   StatusBar,
   Button,
+  Animated,
 } from 'react-native';
 
 import Main_text from "./Main_text";
@@ -14,6 +15,7 @@ import Main_text from "./Main_text";
 export default class Main extends Component<{}> {
 
   render() {
+
     return (
       <View style={styles.container}>
         <StatusBar barStyle="dark-content"/>

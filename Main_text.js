@@ -13,7 +13,7 @@ import PropTypes from 'prop-types';
 
 
 export default class Main_text extends Component{
-  handleClick() {
+  Click() {
     console.log('Click happened');
     Alert.alert("안녕 정윤아~~!!!!!!");
   }
@@ -22,7 +22,7 @@ export default class Main_text extends Component{
     console.log("asf");
 
     return(
-      <TouchableOpacity onPress={this.handleClick}>
+      <TouchableOpacity onPress={this.Click}>
         <View>
           <Text style={styles.ask}>당신의 꿈은 무엇인가요?</Text>
         </View>
